@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Tenerife</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  
+  <div id ="titulo">
+     <h1>Tenerife es cultura</h1>
+  </div>
+  
+  <div id="container">
+      <div id="story">
+        <section class="step" 
+         data-text="Tenerife es la isla más grande y poblada del archipiélago canario, situado en el océano Atlántico, frente a la costa noroeste de África. 
+         Se trata de una región española caracterizada por su diversidad paisajística, climática y cultural.
+         En el plano cultural, Tenerife cuenta con un rico patrimonio histórico que refleja la convivencia entre las tradiciones guanches y la herencia hispánica tras la conquista en el siglo XV. 
+         Este mestizaje se expresa en su arquitectura, festividades y la gastronomía" 
+         data-img="img/teide.jpg" 
+         data-lat="28.3" data-lng="-16.6" data-zoom="9">
+        Santa Cruz de Tenerife
+        <div class="extra-content"></div>
+        </section>
+
+        <section class="step" 
+        data-text="A lo largo y ancho de la isla, nos encontramos una red de recursos recreativos e itinerarios señalizados para vivir el paisaje en movimiento a pie, en bici.
+        Nos regala unos senderos que atraviesan bosques húmedos y volcanes 
+        " 
+        data-img="img/SenderoSentidos.jpg"
+        data-lat="28.487" data-lng="-16.316" data-zoom="12">
+        Introducción a los recursos recreativos e itinerarios de Tenerife.
+        <div class="extra-content"></div>
+        </section>
+
+        
+        <section class="step" data-text= 
+        "Tenerife nos invita al movimiento, no solo a través de sus senderos naturales, sino también a la red de equipamiento que se reparten por toda la isla. A medida que recorres el mapa se podrá descubrir diferentes zonas tanto en entornos naturales como urbanos. Mucho de estos espacios se encuentran junto a senderos o parques.
+         Si nos fijamos bien aparecen triangulos de diferentes colores donde se representa la altura del pico en cuestión" 
+        data-img="img/cafe.jpg"
+        data-lat="28.1" data-lng="-16.7" data-zoom="11">
+        Equipamientos recreativos destacados de la isla.
+        <div class="extra-content"></div>
+      </section>
+      </div>
+      <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
